@@ -34,6 +34,7 @@ const icon = function(dataPoint) {
     case "sleet":
       return "<i class='fa fa-snowflake-o></i>";
       break;
+    case "fog":
     case "cloudy":
     case "partly-cloudy-day":
     case "partly-cloudy-night":

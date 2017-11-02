@@ -25,7 +25,7 @@ let handleWeatherResponse = function(response) {
     dayNum++; //get the day of the week for each forecast day.
     markup +="<h3>"+days[dayNum]+"</h3>";
     markup +="<h3>"+icon(response.daily.data[i])+"</h3>";
-    markup +="<h4>"+Math.round(response.daily.data[i].temperatureHigh)+"|"+Math.round(response.daily.data[1].temperatureLow)+"</h4>";
+    markup +="<h4>"+Math.round(response.daily.data[i].temperatureHigh)+"|"+Math.round(response.daily.data[i].temperatureLow)+"</h4>";
     markup +="<h5>"+response.daily.data[i].summary+"</h5>";
     markup +="</div>";
   }
