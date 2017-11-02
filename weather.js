@@ -32,8 +32,8 @@ let handleWeatherResponse = function(response) {
   $(".forecast").append(markup);
 
     //Add fade effects for current and forecast weather data:
-  $(".current").fadeIn(5000);
-  $(".forecast").fadeIn(5000);
+  $(".current").fadeIn(2000);
+  $(".forecast").fadeIn(2000);
   // *** End of new code
 };
 
